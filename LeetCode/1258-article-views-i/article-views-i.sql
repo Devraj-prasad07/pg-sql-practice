@@ -1,0 +1,6 @@
+-- Write your PostgreSQL query statement below
+SELECT DISTINCT AUTHOR_ID 
+AS ID
+FROM VIEWS
+WHERE  VIEWER_ID =  AUTHOR_ID 
+ORDER BY AUTHOR_ID ASC;
